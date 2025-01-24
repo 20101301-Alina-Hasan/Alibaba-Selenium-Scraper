@@ -30,10 +30,7 @@ To run this project, you need to have the following installed:
    ```bash
    pip install selenium
    ```
-
-3. **Download Microsoft Edge**:
-   - Ensure you have Microsoft Edge installed.
-
+   
 ## Usage 🚀
 
 1. **Run the script**:
