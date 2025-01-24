@@ -46,7 +46,7 @@ To run this project, you need to have the following installed:
 2. **Input your search criteria**:
 
    - Enter the product you want to search for (e.g., "men's black t-shirt").
-   - Enter the maximum price you want to filter by (e.g. "5").
+   - Enter the maximum price you want to filter by (e.g., "5").
 
 3. **View the output**:
    - The scraped data will be saved in `alibaba_results.json` 📊.
