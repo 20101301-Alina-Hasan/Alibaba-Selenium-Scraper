@@ -14,7 +14,6 @@ This project is a web scraper built with Selenium to extract product information
 To run this project, you need to have the following installed:
 
 - Python 3.x 🐍
-- Selenium library 🧑‍💻
 - Microsoft Edge 🌐
 
 ### Installation 🔧
