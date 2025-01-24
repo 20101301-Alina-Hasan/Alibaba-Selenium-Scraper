@@ -1,23 +1,23 @@
-# Alibaba Price Comparison Scraper
+# Alibaba Data Scraper 🛒
 
 This project is a web scraper built with Selenium to extract product information from Alibaba based on user-defined search queries and filters. The scraper dynamically applies relevant filters based on the search input to refine the results.
 
-## Features
+## Features ✨
 
 - Scrapes product name, price, company, MOQ (Minimum Order Quantity), rating, image link, and product link.
 - Dynamically applies filters based on keywords in the user's search input.
 - Supports pagination to scrape multiple pages of results.
 - Excludes products with missing or invalid data.
 
-## Requirements
+## Requirements ⚙️
 
 To run this project, you need to have the following installed:
 
-- Python 3.x
-- Selenium library
-- Microsoft Edge WebDriver (compatible with your Edge browser version)
+- Python 3.x 🐍
+- Selenium library 🧑‍💻
+- Microsoft Edge WebDriver (compatible with your Edge browser version) 🌐
 
-### Installation
+### Installation 🔧
 
 1. **Clone the repository** (if applicable):
 
@@ -32,10 +32,10 @@ To run this project, you need to have the following installed:
    pip install selenium
    ```
 
-3. **Download Microsoft Edge WebDriver**:
-   - Ensure you have Microsoft Edge WebDriver installed and available in your system PATH. You can download it from [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/).
+3. **Download Microsoft Edge**:
+   - Ensure you have Microsoft Edge installed.
 
-## Usage
+## Usage 🚀
 
 1. **Run the script**:
 
@@ -46,23 +46,23 @@ To run this project, you need to have the following installed:
 2. **Input your search criteria**:
 
    - Enter the product you want to search for (e.g., "men's black t-shirt").
-   - Enter the maximum price you want to filter by.
+   - Enter the maximum price you want to filter by (e.g. "5").
 
 3. **View the output**:
-   - The scraped data will be saved in `alibaba_results.json`.
+   - The scraped data will be saved in `alibaba_results.json` 📊.
 
-## Optimizations
+## Optimizations 🔍
 
 We can optimize this further by adding some restrictions:
 
-1. If the product name is nil, we can skip the product.
-2. If price is nil, we can skip the product.
-3. If product link is nil, we can skip the product.
-4. If rating is nil, we can skip the product.
-5. If image link is nil, we can skip the product.
-6. If price is given in a range, we can skip the product.
-7. Add more than one filter option (Optional).
+1. If the product name is nil, we can skip the product. 🚫
+2. If price is nil, we can skip the product. 🚫
+3. If product link is nil, we can skip the product. 🚫
+4. If rating is nil, we can skip the product. 🚫
+5. If image link is nil, we can skip the product. 🚫
+6. If price is given in a range, we can skip the product. 🚫
+7. Add a filter option based on search input. ⚙️
 
-## Notes
+## Notes 📝
 
 - Ensure that your selectors are up-to-date with Alibaba's current HTML structure.
