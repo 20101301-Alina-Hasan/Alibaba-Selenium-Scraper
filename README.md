@@ -51,9 +51,9 @@ To run this project, you need to have the following installed:
 3. **View the output**:
    - The scraped data will be saved in `alibaba_results.json` 📊.
 
-## Optimizations 🔍
+## restrictions 🔍
 
-We can optimize this further by adding some restrictions:
+Some added restrictions include:
 
 1. If the product name is nil, we can skip the product. 🚫
 2. If price is nil, we can skip the product. 🚫
