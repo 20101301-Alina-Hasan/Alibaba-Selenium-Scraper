@@ -1,6 +1,6 @@
 # Alibaba Data Scraper 🛒
 
-This project is a web scraper built with Selenium to extract product information from Alibaba based on user-defined search queries and filters. The scraper dynamically applies relevant filters based on the search input to refine the results.
+This project is a web scraper built with Selenium to extract product information from Alibaba based on user-defined search queries. The scraper dynamically applies relevant filters based on the search input to refine the results.
 
 ## Features ✨
 
@@ -14,7 +14,6 @@ This project is a web scraper built with Selenium to extract product information
 To run this project, you need to have the following installed:
 
 - Python 3.x 🐍
-- Selenium library 🧑‍💻
 - Microsoft Edge 🌐
 
 ### Installation 🔧
@@ -31,10 +30,7 @@ To run this project, you need to have the following installed:
    ```bash
    pip install selenium
    ```
-
-3. **Download Microsoft Edge**:
-   - Ensure you have Microsoft Edge installed.
-
+   
 ## Usage 🚀
 
 1. **Run the script**:
