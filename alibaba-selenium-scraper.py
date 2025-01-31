@@ -1,6 +1,7 @@
 '''
 We can optimize this further by adding some restrictions:
     1. Add more than one filter option. [Optional]
+    2. The New filter option can be applied [Optional]
 '''	
 
 from selenium import webdriver
@@ -141,6 +142,8 @@ while True:
         print(f"Navigating to page {page_number + 1}...")
         driver.get(next_page_url)
         page_number += 1
+        if page_number == 2:	
+            break
     except Exception as e:
         print("Failed to load the next page. Exiting...", e)
         break
