@@ -1,4 +1,4 @@
-# Alibaba Data Scraper 🛒
+# Alibaba Data Scraper 🏚️
 
 This project is a web scraper built with Selenium to extract product information from Alibaba based on user-defined search queries. The scraper dynamically applies relevant filters based on the search input to refine the results.
 
@@ -9,12 +9,69 @@ This project is a web scraper built with Selenium to extract product information
 - Supports pagination to scrape multiple pages of results.
 - Excludes products with missing or invalid data.
 
-## Requirements ⚙️
+---
+
+## JavaScript Version 
+
+### Requirements ⚙️
+
+To run this project, you need to have the following installed:
+
+- Node.js
+- npm (Node Package Manager)
+- Microsoft Edge 🌐 (for Selenium WebDriver)
+
+### Installation 🔧
+
+1. **Clone the repository** (if applicable):
+
+   ```bash
+   git clone https://github.com/20101301-Alina-Hasan/Alibaba-Selenium-Scraper.git
+   cd Alibaba-Selenium-Scraper
+   ```
+
+2. **Install required Node.js packages**:
+
+   ```bash
+   npm install
+   ```
+
+### Usage 🚀
+
+1. **Run the script**:
+
+   ```bash
+   node alibaba-selenium-scraper.js
+   ```
+
+2. **Input your search criteria**:
+   
+   - Enter the product you want to search for (e.g., "men's black t-shirt").
+   - Enter the maximum price you want to filter by (e.g., "5").
+
+3. **View the output**:
+   - The scraped data will be saved or displayed as specified in your Node.js script 📊.
+
+### Restrictions 🔍
+
+Some added restrictions include:
+
+- If the product name is nil, skip the product. 🚫
+- If price is nil or given in a range, skip the product. 🚫
+- If product link is nil, skip the product. 🚫
+- If rating is nil, skip the product. 🚫
+- If image link is nil, skip the product. 🚫
+
+---
+
+## Python Version 
+
+### Requirements ⚙️
 
 To run this project, you need to have the following installed:
 
 - Python 3.x 🐍
-- Microsoft Edge 🌐
+- Microsoft Edge 🌐 (for Selenium WebDriver)
 
 ### Installation 🔧
 
@@ -30,8 +87,8 @@ To run this project, you need to have the following installed:
    ```bash
    pip install selenium
    ```
-   
-## Usage 🚀
+
+### Usage 🚀
 
 1. **Run the script**:
 
@@ -40,25 +97,26 @@ To run this project, you need to have the following installed:
    ```
 
 2. **Input your search criteria**:
-
+   
    - Enter the product you want to search for (e.g., "men's black t-shirt").
    - Enter the maximum price you want to filter by (e.g., "5").
 
 3. **View the output**:
    - The scraped data will be saved in `alibaba_results.json` 📊.
 
-## restrictions 🔍
+### Restrictions 🔍
 
 Some added restrictions include:
 
-1. If the product name is nil, we can skip the product. 🚫
-2. If price is nil, we can skip the product. 🚫
-3. If product link is nil, we can skip the product. 🚫
-4. If rating is nil, we can skip the product. 🚫
-5. If image link is nil, we can skip the product. 🚫
-6. If price is given in a range, we can skip the product. 🚫
-7. Add a filter option based on search input. ⚙️
+- If the product name is nil, skip the product. 🚫
+- If price is nil, skip the product. 🚫
+- If product link is nil, skip the product. 🚫
+- If rating is nil, skip the product. 🚫
+- If image link is nil, skip the product. 🚫
+
+---
 
 ## Notes 📝
 
 - Ensure that your selectors are up-to-date with Alibaba's current HTML structure.
+- This scraper is applicable as of February 2025.
