@@ -121,6 +121,10 @@ Some added restrictions include:
 - Ensure that your selectors are up-to-date with Alibaba's current HTML structure.
 - This scraper is applicable as of February 2025.
 
+## Contributing 🙌 
+
+Contributions are welcome! If you have suggestions or want to collaborate, feel free to open an issue or pull request.
+
 ## Contact 📧 
 
 For questions or inquiries, reach out via alina.hasan@g.bracu.ac.bd
